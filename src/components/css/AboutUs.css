@@ -1,0 +1,31 @@
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  background-image: url('bgaboutus.png');
+  background-size: cover;
+  background-position: center;}
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.image-container img {
+  width: 100%; 
+  height: auto;
+}
+
+.text-container {
+  flex: 1.8;
+}
+
+.text-container p {
+  font-size: 18px;
+  line-height: 3;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  color: #2e2e33;
+}

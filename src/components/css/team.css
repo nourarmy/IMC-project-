@@ -1,0 +1,88 @@
+.team-container {
+    max-width: 1550px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .slick-slide {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  .slick-center {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .cardd {
+    width: 180px;
+    height: 309px;
+    text-align: center;
+    padding: 10px;
+    margin: 90px auto;
+    border-radius: 8px;
+    border: 3px solid rgb(157, 183, 245);
+    background-image: url('bg.jpg');
+    opacity: 0.3;
+    z-index: 1;
+  }
+  
+  .cardd img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .slick-center .cardd {
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 3;
+    border: 3px solid rgb(157, 183, 245);
+    background-image: url('bg.jpg');
+    
+  }
+  
+  .prev-cardd,
+  .next-cardd {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  
+  .titles h3, h5 {
+    color: azure;
+    
+  }
+  
+  .facebook-icon {
+    color: #FFF;
+    opacity: 0.5; 
+  }
+  
+  .next-arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+  }
+ 
+  .prev-arrow {
+    left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+  }
+  
+  
